@@ -1,0 +1,265 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login the user",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 498700,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on the Retail application",
+            "match": {
+              "location": "coupondefination.user_is_on_the_Retail_application()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164237000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enter the username and password",
+            "match": {
+              "location": "coupondefination.user_enter_the_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3526817300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on login button",
+            "match": {
+              "location": "coupondefination.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2020505700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigate to the Dashboard",
+            "match": {
+              "location": "coupondefination.user_navigate_to_the_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60134100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click on button menu",
+            "match": {
+              "location": "coupondefination.click_on_button_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3128668600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Marketing",
+            "match": {
+              "location": "coupondefination.user_click_on_Marketing()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-10-14T06:53:42.410Z",
+        "before": [
+          {
+            "result": {
+              "duration": 5551221400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "couponmethod.initialization()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Add functionality of coupon",
+        "description": "",
+        "id": "sign-up-feature;add-functionality-of-coupon;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 140273300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "couponmethod.close()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4828419800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User click on coupons",
+            "match": {
+              "location": "coupondefination.user_click_on_coupons()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2016310000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User navigate to coupon Dashboard",
+            "match": {
+              "location": "coupondefination.user_navigate_to_coupon_Dashboard()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4659060700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Click on Add button",
+            "match": {
+              "location": "coupondefination.click_on_Add_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5794286600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Enter the \"abcde98288@\",\"abcd$#1136\",\"20\",\"5000\",\"xyz123\",\"electonic\",\"2021-10-06\",\"2021-11-06\",\"\",\"\",",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abcde98288@\"",
+                  "offset": 10
+                },
+                {
+                  "val": "\"abcd$#1136\"",
+                  "offset": 24
+                },
+                {
+                  "val": "\"20\"",
+                  "offset": 37
+                },
+                {
+                  "val": "\"5000\"",
+                  "offset": 42
+                },
+                {
+                  "val": "\"xyz123\"",
+                  "offset": 49
+                },
+                {
+                  "val": "\"electonic\"",
+                  "offset": 58
+                },
+                {
+                  "val": "\"2021-10-06\"",
+                  "offset": 70
+                },
+                {
+                  "val": "\"2021-11-06\"",
+                  "offset": 83
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 96
+                },
+                {
+                  "val": "\"\"",
+                  "offset": 99
+                }
+              ],
+              "location": "coupondefination.enter_the(String,String,String,String,String,String,String,String,String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 333694100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User Select Type,Customer_Login,Free_shipping,Status",
+            "match": {
+              "location": "coupondefination.user_Select_Type_Customer_Login_Free_shipping_Status()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4975271200,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User click on save button",
+            "match": {
+              "location": "coupondefination.user_click_on_save_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79460500,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User CLick the displayed message",
+            "match": {
+              "location": "coupondefination.user_CLick_the_dispalyed_message()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2018041800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user redirected to the coupons home page",
+            "match": {
+              "location": "coupondefination.user_redirected_to_the_coupons_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "sign up feature",
+    "description": "",
+    "id": "sign-up-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/couponfeature/coupon.feature",
+    "tags": []
+  }
+]

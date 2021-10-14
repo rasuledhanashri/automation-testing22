@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="39.300506">
+    <testcase classname="sign up feature" name="Add functionality of coupon" time="39.300506">
+        <system-out><![CDATA[Given User is on the Retail application.....................................passed
+When User enter the username and password...................................passed
+And click on login button...................................................passed
+And User navigate to the Dashboard..........................................passed
+And click on button menu....................................................passed
+Then User click on Marketing................................................passed
+Given User click on coupons.................................................passed
+And User navigate to coupon Dashboard.......................................passed
+And Click on Add button.....................................................passed
+And Enter the "abcde98288@","abcd$#1136","20","5000","xyz123","electonic","2021-10-06","2021-11-06","","",.passed
+And User Select Type,Customer_Login,Free_shipping,Status....................passed
+And User click on save button...............................................passed
+And User CLick the displayed message........................................passed
+Then user redirected to the coupons home page...............................passed
+]]></system-out>
+    </testcase>
+</testsuite>
